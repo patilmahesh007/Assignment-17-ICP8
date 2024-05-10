@@ -1,10 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    
-    <title>Document</title>
+
+    <title>Superhero</title>
 </head>
-<body>
-    
+
+<body style="background-color: black;">
+
+    <style>
+        .bar {
+            border: 5px double rgb(19, 62, 180);
+            border-radius: 25px;
+            padding: 7px 7px;
+            margin-left: 55px;
+            margin-right: 55px;
+            color: white;
+            background-color: rgb(58, 188, 188);
+            height: 50px;
+
+            top: 30px;
+
+
+
+        }
+
+        .bar:hover {
+            background-color: rgb(2, 255, 255);
+            box-shadow: 2px 2px 34px 7px rgb(90, 202, 202);
+
+
+        }
+
+        .bar1 {
+            background-color: black;
+            border: solid black;
+            border-radius: 5px;
+            height: 100px;
+            position: fixed;
+            margin: -25px;
+
+        }
+
+
+
+
+        .img {
+            height: 200px;
+            position: relative;
+            padding: 5px 30px;
+        }
+
+        .parent-container {
+
+            display: flex;
+            flex-direction:     row ;
+            justify-content:space-around;
+            height: 300px;
+            align-items: center;
+
+        }
+
+        .child-container {
+            border: 10x solid aqua;
+          
+            display: inline;
+            height: 260px;
+            width: 200px;
+            color: black;
+            position: relative;
+            background-color: beige;
+          text-align: center;
+          font-size: larger;
+        
+        }
+        .child-container:hover{
+            box-shadow: 5px 5px 15px 10px rgb(89, 90, 77);
+            margin: 5px 5px;
+            transition: 200ms;
+        }
+
+    </style>
+
+    <div class="bar1">
+        <br>
+        <h1><a href="scifi.html" class="bar">Sci-fi</a>
+            <a href="anime.html" class="bar">Anime</a>
+            <a href="action.html" class="bar">Action</a>
+            <a href="superhero.html" class="bar">Superhero</a>
+            <a href="mystery.html" class="bar">Mystery</a>
+            <a href="horror.html" class="bar">Horror</a>
+            <br><br>
+    </div><br><br><br><br><br><br>
+
+
+
+    <div class="parent-container">
+        <div class="child-container"><img src="man.jpeg" class="img">
+            <p>Man of Steel</p>
+
+        </div>
+        <div class="child-container"><img src="flash.jpeg" class="img">
+            <p>The Flash</p>
+        </div>
+        <div class="child-container"><img src="black.jpeg" class="img">
+            <p>Black Adam</p>
+        </div>
+    </div>
+   
+
+
+
+
+
+
+
+
+
 </body>
+
+
 </html>
