@@ -34,7 +34,8 @@
             height: 50px;
 
             top: 30px;
-           
+            justify-content: space-around;
+            flex          : wrap;
 
 
 
@@ -67,7 +68,25 @@
             align-items: center;
 
         }
+        .parent-container1{
 
+display: flex;
+flex-direction:     row-reverse ;
+justify-content: start;
+height: 300px;
+align-items: center;
+
+}
+
+.parent-container2 {
+
+display: flex;
+flex-direction:    row;
+justify-content:end;
+height: 300px;
+align-items: center;
+
+}
         .child-container {
             border: 10x solid aqua;
           
@@ -115,6 +134,29 @@
         </div>
     </div>
    
+    <div class="parent-container1">
+        <div class="child-container"><img src="man.jpeg" class="img">
+            <p>Man of Steel</p>
+
+        </div>
+        <div class="child-container"><img src="flash.jpeg" class="img">
+            <p>The Flash</p>
+        </div>
+        <div class="child-container"><img src="black.jpeg" class="img">
+            <p>Black Adam</p>
+        </div>
+    </div> <div class="parent-container2   ">
+        <div class="child-container"><img src="man.jpeg" class="img">
+            <p>Man of Steel</p>
+
+        </div>
+        <div class="child-container"><img src="flash.jpeg" class="img">
+            <p>The Flash</p>
+        </div>
+        <div class="child-container"><img src="black.jpeg" class="img">
+            <p>Black Adam</p>
+        </div>
+    </div>
 
 
 
